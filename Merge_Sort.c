@@ -71,6 +71,7 @@ void main()
 	scanf("%d",&n);
 	int* a = malloc(sizeof(int)* n);
 	for(i=0;i<n;i++){
+		printf("Enter Element %d: ",i+1);
 		scanf("%d",&a[i]);
 	}
 	printf("Unsorted Array is: ");
